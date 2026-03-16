@@ -42,3 +42,15 @@ console.log("User Category:", userCategory);
 let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 console.log("Authentication Status:", authenticationStatus);
+
+
+function add(a,b){console.log(a+b)};
+add(2,3);
+const diff = function(a,b){return a-b};
+console.log(diff(5,2));
+const mult = (a,b) => console.log(a*b);
+mult(2,3);
+(function(square){console.log(square)})(5);
+
+const cube = (num) => console.log(num * num * num);
+cube(2);
