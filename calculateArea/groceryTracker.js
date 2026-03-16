@@ -4,3 +4,14 @@ function calcPrice(){
     var g3=document.getElementById("grocery3").value;
     document.getElementById('total').innerHTML="The price is "+(parseInt(g1)+parseInt(g2)+parseInt(g3));
 }
+
+function greet(name){
+    const msg = "hello, "
+    function greetName(){
+        console.log(msg+name);
+    }
+    return greetName;
+}
+
+const greetJan = greet("jan");
+greetJan();
